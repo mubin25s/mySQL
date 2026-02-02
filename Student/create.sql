@@ -1,3 +1,2 @@
-CREATE DATABASE StudentManagementDB;
-
-USE StudentManagementDB;
+CREATE Database Student;
+USE Student;
