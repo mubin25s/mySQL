@@ -55,7 +55,7 @@ CREATE TABLE pet_food (
 CREATE TABLE suppliers (
     Supplier_ID INT PRIMARY KEY,
     S_name VARCHAR(100),
-    S_cVARCHAR(20),
+    S_contact VARCHAR(20),
     S_email VARCHAR(100),
     S_location VARCHAR(255)
 );
