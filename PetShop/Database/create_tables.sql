@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-CREATE TABLE customer (
-    Customer_ID INT PRIMARY KEY,
-    C_nams VARCHAR(100),
-    C_phone VARCHAR(20),
-    C_email VARCHAR(100),
-    C_address VARCHAR(255)
-);
 
 CREATE TABLE pet_categories (
     Category_ID INT PRIMARY KEY,
