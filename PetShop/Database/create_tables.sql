@@ -10,7 +10,6 @@ CREATE TABLE customer (
 CREATE TABLE pet_categories (
     Category_ID INT PRIMARY KEY,
     Category_name VARCHAR(100)
-);
 
 CREATE TABLE pets (
     Pet_ID INT PRIMARY KEY,
