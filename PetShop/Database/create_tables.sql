@@ -29,9 +29,7 @@ CREATE TABLE orders (
     Customer_ID INT,
     Order_date VARCHAR(20),
     Total_amount INT,
-    FOREIGN KEY (Customer_ID) REFERENCES customer (Customer_ID)
-);
-
+    FOREIGN KEY (Customer_ID) REFERENCES customer (Customer_
 CREATE TABLE order_details (
     Detail_ID INT PRIMARY KEY,
     Order_ID INT,
