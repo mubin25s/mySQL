@@ -13,7 +13,7 @@ CREATE TABLE pet_categories (
 );
 
 CREATE TABLE pets (
-    Pet_ID INT PRIMARY 
+    Pet_ID INT PRIMARY KEY,
     Pet_name VARCHAR(100),
     Category_ID INT,
     Breed VARCHAR(100),
